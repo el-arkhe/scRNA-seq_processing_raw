@@ -16,22 +16,19 @@ El curso busca introducir el flujo de trabajo de análisis de datos scRNA-seq, c
 - uso de agentes de IA para apoyo analítico y automatización
 
 ## Prerrequisitos
-
-Antes de la primera sesión, asegúrense de completar lo siguiente:
-
-1. Revisar el material del curso y cualquier documento complementario.
-2. Crear una cuenta en 10x Genomics Cloud.
-3. Configurar la cuenta para acceso a cómputo y almacenamiento.
-4. Instalar y configurar Claude Desktop.
-5. Verificar acceso a los datasets del curso.
-6. Confirmar que tengan acceso a internet estable y un navegador actualizado.
+- [Descargar requisitos del curso (PDF)](./Requisitos_Previos_Curso_scRNAseq.docx.pdf)
 
 ## Datasets del curso
 
-Usaremos los siguientes datasets oficiales de 10x Genomics:
+Accede a [10x Genomics Datasets](https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x)
 
-- 5k Human PBMCs – Donor 3
-- 5k Human PBMCs – Donor 4
+| Dataset y enlace directo | Células detectadas |
+|---|---:|
+| [5k Human PBMCs — Donor 1](https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x) | 5,709 |
+| 5k Human PBMCs — Donor 2 | 5,987 |
+| 5k Human PBMCs — Donor 3 | 4,773 |
+| 5k Human PBMCs — Donor 4 | 5,721 |
+| Total | 22,190 |
 
 ## Recomendaciones
 
