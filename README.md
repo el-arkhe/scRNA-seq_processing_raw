@@ -28,14 +28,13 @@ Antes de día 1, es necesario completar los siguientes pasos:
 
 1. Revisar el material adjunto del curso.
 2. Crear una cuenta en 10x Genomics Cloud.
-3. Configurar correctamente la cuenta de 10x Genomics Cloud para acceder a los recursos de cómputo y almacenamiento del curso.
-4. Instalar y configurar Claude Desktop.
-5. Confirmar que cuenta con un navegador actualizado y acceso estable a internet.
+3. Instalar y configurar Claude Desktop.
+4. Confirmar que cuenta con un navegador actualizado y acceso estable a internet.
 
 ## Cuentas requeridas
 
-- Debe crear su cuenta en 10x Genomics Cloud y asegurarse de que esté configurada para acceder a los recursos de cómputo y almacenamiento del curso.
-- Debe instalar y configurar Claude Desktop de acuerdo con las instrucciones de la guía del curso. 
+- Una cuenta en 10x Genomics Cloud
+- Instalar y configurar Claude Desktop de acuerdo con las instrucciones de la guía del curso. 
 
 ## Datasets del curso
 
@@ -46,19 +45,17 @@ Trabajaremos con los siguientes datasets oficiales de 10x Genomics:
 
 Estos datasets serán utilizados para ilustrar el procesamiento, la calidad, la cuantificación y el análisis de datos scRNA-seq en entornos de cómputo en la nube.
 
-Verifica el acceso a los datasets oficiales de 10x Genomics que utilizaremos durante el taller. 
-
 > ⚠️  *No necesitas hacer nada más.*
 
 ## Recomendaciones generales
 
-- Llegar con la cuenta de 10x Genomics Cloud lista y funcional.
+- Llegar con la cuenta de 10x Genomics Cloud lista para iniciar sesión.
 - Confirmar que Claude Desktop esté instalado y accesible.
-- Tener al menos un navegador web actualizado y acceso a la terminal del sistema operativo si se requiere.
+- Asegurate de tener un navegador web actualizado.
 
 ## Guía del curso
 
-Aquí encontrarás la guía completa del curso, que incluye información detallada sobre los objetivos, prerrequisitos, datasets y recomendaciones para aprovechar al máximo la experiencia de aprendizaje.
+Accede a la guía completa del curso para leer los detalles  sobre los objetivos, prerrequisitos, datasets y recomendaciones para aprovechar al máximo la experiencia de aprendizaje.
 
 [![Abrir guía del curso](https://img.shields.io/badge/Gu%C3%ADa-del%20curso-blue?style=for-the-badge)](./docs/guia_curso.md)
 
