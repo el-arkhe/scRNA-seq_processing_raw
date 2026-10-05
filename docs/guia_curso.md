@@ -8,12 +8,17 @@ Este documento complementa la información general del curso y sirve como guía 
 
 El curso busca introducir el flujo de trabajo de análisis de datos scRNA-seq, con énfasis en:
 
-- diseño experimental y tipos de datos single-cell
-- preparación y calidad de librerías
+- fundamentos, tipos de datos single-cell y compatibilidad con pipelines de 10x Genomics
+- selección y lectura de calidad de librerías
+- uso de CLI de Cell Ranger para alineación, cuantificación y generación de resultados preliminares
 - uso de 10x Genomics Cloud para cómputo en la nube
 - ejecución de Cell Ranger para alineación y cuantificación
 - interpretación de resultados preliminares
+- integración de agentes de IA para apoyo analítico y automatización
 - uso de agentes de IA para apoyo analítico y automatización
+- exploración de resultados mediante el reporte de Cell Ranger
+- introducción a herramientas de visualización
+
 
 ## Prerrequisitos
 - [Descargar requisitos del curso (PDF)](./Requisitos_Previos_Curso_scRNAseq.docx.pdf)
