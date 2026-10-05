@@ -32,17 +32,10 @@ Accede a [10x Genomics Datasets](https://www.10xgenomics.com/datasets/5k_Human_D
 
 ## Recomendaciones
 
-- Revisen la documentación de 10x Genomics Cloud antes de iniciar.
+- Traten de completar los **Prerrequisitos** del curso, es importante para optimizar las sesiones.
 - Asegúrense de poder iniciar sesión en sus cuentas.
 - Verifiquen que Claude Desktop esté operativo para las actividades prácticas.
-- Tengan listas las preguntas o dudas para la primera sesión.
 
-## Agenda sugerida previa
-
-- Confirmar acceso a 10x Genomics Cloud
-- Confirmar acceso a Claude Desktop
-- Revisar el material del curso
-- Preparar entorno para trabajo práctico
 
 ## Contacto
 
