@@ -96,7 +96,7 @@ Como guía básica de seleccion inicial puedes preguntarte:
 
 ## Siguiente tema
 - [Ir a - Comprendiendo las categorías de datos en 10x Genomics Datasets](/docs/03a_10Xgenomics_categories.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - índice del taller](./guia_curso.md)
 
 ## Referencias y recursos adicionales
 

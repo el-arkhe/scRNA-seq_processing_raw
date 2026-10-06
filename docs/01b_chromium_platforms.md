@@ -239,7 +239,6 @@ Desde el punto de vista computacional:
     - Profundidad de secuenciación
 
 ## En resumen
-
 La plataforma Chromium combina:
 
 - Microfluídica de precisión
@@ -250,7 +249,7 @@ La plataforma Chromium combina:
 
 ## Siguiente tema
 - [Ir a - Procesamiento de datos scRNA-seq con `Cell Ranger`](/docs/02_preprocessing_scrnaseq_datasets.md)
-- [Ir a - Índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - Índice del taller](./guia_curso.md)
 
 ---
 

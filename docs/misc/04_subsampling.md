@@ -156,7 +156,7 @@ Por ello, la detección de células es una inferencia probabilística dependient
 ## Siguiente tema
 
 - [Ir a - análisis de resultados con y sin submuestreo](/docs/main_docs/day1/04a_subsampling.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - índice del taller](../guia_curso.md)
 
 ---
 

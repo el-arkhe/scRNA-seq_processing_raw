@@ -78,7 +78,7 @@ El flujo típico de un experimento scRNA-seq incluye:
 
 ## Siguiente tema
 - Ir a [Archivos FASTQ y matrices de datos](/docs/01a_fastq_matrices_datos.md)
-- Ir al [Índice del taller](/docs/README.md#índice-del-taller)
+- Ir al [Índice del taller](./guia_curso.md)
 
 ## Referencias y recursos adicionales
 

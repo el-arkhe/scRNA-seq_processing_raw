@@ -227,7 +227,7 @@ Procesamiento con Cell Ranger en 10x Genomics Cloud
 ### Siguiente tema
 
 - [Ir a - descarga de datos procesados en `Cell Ranger on the Cloud`](/docs/03b_download_10X_cloud.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - índice del taller](./guia_curso.md)
 
 
 ## Referencias y recursos adicionales

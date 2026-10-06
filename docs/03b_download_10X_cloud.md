@@ -87,7 +87,7 @@ Inspecciona los reportes de calidad y si satisfacen tus expectativas estas listo
 ## Siguiente tema
 
 - [Ir a - submuestreo (subsampling) con datos scRNA-seq](/docs/main_docs/day1/04_subsampling.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - índice del taller](./guia_curso.md)
 
 ---
 

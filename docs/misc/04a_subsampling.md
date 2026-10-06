@@ -1,4 +1,3 @@
-
 # Análisis de resultados con y sin submuestreo (subsampling)  
 ## Cell Ranger Multi v9.0.1
 
@@ -138,7 +137,7 @@ Secondary Analysis:
 ## Siguiente tema
 
 - [Ir a - práctica 1.P3: análisis comparativo de resultados de submuestreo](/scripts/day1_practice_P3.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - índice del taller](../guia_curso.md)
 
 ---
 

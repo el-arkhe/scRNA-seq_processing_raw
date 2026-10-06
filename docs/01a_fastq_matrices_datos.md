@@ -202,8 +202,10 @@ En este taller utilizararemos datos sin procesar y preprocesados accesibles púb
 
 
 ## Siguiente tema
-- [Ir a - Plataforma 10x Genomics Chromium](/docs/01b_chromium_platforms.md)
-- Ir al [Índice del taller](/docs/README.md#índice-del-taller)
+- Ir a [Plataforma 10x Genomics Chromium](/docs/01b_chromium_platforms.md)
+- Ir al [Índice del taller](./guia_curso.md)
+
+## Referencias y recursos adicionales
 
 ---
 © El Arkhe · MultiOmics

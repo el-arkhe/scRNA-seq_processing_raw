@@ -138,7 +138,7 @@ El resultado central del preprocesamiento es obtener la matriz de conteos **Filt
 
 ## Siguiente tema
 - [Ir a - comprendiendo las químicas chromium 3′](/docs/02a_seleccion_datos_chromium_sc.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - índice del taller](./guia_curso.md)
 
 
 ## Referencias y recursos adicionales

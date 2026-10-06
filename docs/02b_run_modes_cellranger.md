@@ -31,7 +31,7 @@ Como alternativa dentro de entornos Galaxy, es común utilizar herramientas open
 ## Siguiente tema
 
 - [Ir a - descarga y carga de archivos FASTQ desde `10x Genomics Datasets` a `10x Genomics on the Cloud`](/docs/03a_upload_files.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - índice del taller](./guia_curso.md)
 
 ## Referencias y recursos adicionales
 

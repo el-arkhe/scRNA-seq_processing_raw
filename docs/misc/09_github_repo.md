@@ -88,7 +88,7 @@ Ahora puedes ...
 
 - [Comenzar día 1: Introducción a scRNA-seq y procesamiento con Cell Ranger](/docs/main_docs/day1/01_introduccion_sc_rnaseq.md)
 
-- [Ir al índice del taller](/docs/README.md)
+- [Ir al índice del taller](../guia_curso.md)
 
 ---
 

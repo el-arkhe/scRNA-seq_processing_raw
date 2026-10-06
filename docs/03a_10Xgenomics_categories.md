@@ -19,7 +19,7 @@ En experimentos de scRNA-seq es importante distinguir entre **datos sin procesar
 ## Siguiente tema
 
 - [Ir a - modos de ejecución de `Cell Ranger`](/docs/02b_run_modes_cellranger.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - índice del taller](./guia_curso.md)
 
 ---
 
