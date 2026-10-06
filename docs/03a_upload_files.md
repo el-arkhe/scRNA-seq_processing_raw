@@ -1,4 +1,4 @@
-# Carga y Descarga de archivos single-cell desde 10x Genomics Datasets a 10x Genomics on the Cloud
+# Carga y descarga de archivos desde 10x Genomics Datasets a 10x Genomics on the Cloud
 
 Tenemos diferentes opciones para descargar y subir archivos de datos de secuenciación de células individuales (scRNA-seq) desde el repositorio público de 10x Genomics a la plataforma en la nube de 10x Genomics, o entre entornos locales y la nube. 
 
