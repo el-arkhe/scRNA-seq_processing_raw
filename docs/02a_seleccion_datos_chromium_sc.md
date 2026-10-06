@@ -1,6 +1,8 @@
-# Comprendiendo las químicas chromium 3′: v3.1 vs GEM-X v4
+# Selección de datos Chromium single-cell de 10x Genomics
 
-Las tecnologías Chromium single-cell de 10x Genomics permiten perfilar la expresión génica a nivel de célula individual utilizando distintas químicas, diseñadas para responder a preguntas biológicas y restricciones experimentales específicas. Las más comunes son **Universal 3′**, **Universal 5′** y **Chromium Flex**.
+Las tecnologías Chromium single-cell de 10x Genomics permiten perfilar la expresión génica a nivel de célula individual utilizando distintas químicas, diseñadas para responder a preguntas biológicas y restricciones experimentales específicas. 
+
+A continuación se describen las más comunes: **Universal 3′**, **Universal 5′** y **Chromium Flex**.
 
 ## Universal 3′ Gene Expression
 
