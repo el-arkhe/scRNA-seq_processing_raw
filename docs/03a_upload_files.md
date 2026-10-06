@@ -1,14 +1,14 @@
-# Descarga y carga de archivos FASTQ 
-## Desde `10x Genomics Datasets` a `10x Genomics on the Cloud`
+# Carga y Descarga de archivos single-cell desde `10x Genomics Datasets` a `10x Genomics on the Cloud`
 
-En esta sección veremos opciones para:
-- Descargar archivos FASTQ (raw data) desde 10x Genomics Datasets.
-- Subir los archivos FASTQ a 10x Genomics Cloud utilizando la herramienta CLI.
-- Preparar los datos para su procesamiento con Cell Ranger en la nube.
+Tenemos diferentes opciones para descargar y subir archivos de datos de secuenciación de células individuales (scRNA-seq) desde el repositorio público de 10x Genomics a la plataforma en la nube de 10x Genomics, o entre entornos locales y la nube. 
 
-## Descarga de datos sin procesar (FASTQs)
+Algunas de las más comúnes son:
 
-Tomemos como ejemplo el dataset: **Peripheral blood mononuclear cells (PBMCs) from healthy humans**
+## Descargar datos desde `10x Genomics Datasets` a tu computadora local
+
+Dataset Ejemplo: 
+
+**Peripheral blood mononuclear cells (PBMCs) from healthy humans**
 
 Este dataset está compuesto por **4 donadores control (~20k células en total)**.
 
@@ -16,7 +16,7 @@ Dataset base: https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x
 
 ## Descarga vía navegador
 
-Puedes descargar los archivos directamente desde el botón de descarga en la página oficial del dataset. Sin mayor complicación.
+Descarga los archivos directamente desde el botón de descarga en la página oficial del dataset. Sin mayor complicación.
 
 ## Descarga vía línea de comandos (recomendado)
 ### Donor 1
@@ -56,11 +56,9 @@ Si descargaste archivos `.tar`:
 tar -xvf archivo_fastqs.tar
 ```
 
+## Carga y Descarga con CLI
 
-## Carga de FASTQs a 10x Genomics Cloud
-## Descarga de CLI
-
-Para procesar los datos en la nube con Cell Ranger utilizaremos la herramienta: **10x Genomics Cloud CLI**
+### Descarga de 10x 10x Genomics Cloud CLI
 
 La instalación depende del sistema operativo. Por ejemplo este es el comando de descarga de CLI para macOS
 
@@ -87,7 +85,7 @@ https://cloud.10xgenomics.com/account/security
 ⚠️ No compartas tu access token públicamente.
 
 
-## Subida de archivos FASTQ usando CLI
+## Subir archivos a 10x Genomics Cloud usando CLI
 
 Ejemplo en macOS:
 
@@ -108,7 +106,7 @@ txg-macos-v4.0.0/txg files upload \
 Observa que tienes que apuntar al direcorio donde descargaste CLI (txg) y al directorio donde estan los FASTQs, en mi caso CLI esta en `txg-macos-v4.0.0/txg` y mis FASTQs estan en `scRNAseq/scrnaseq-workshop/data/10XGenomics_data/5k_Human_Donor4_PBMC_3p_gem-x_*` 
 
 
-## Confirmación de subida
+### Confirmación de subida
 
 El sistema mostrará:
 
@@ -131,9 +129,9 @@ Ctrl + C
 ```
 
 
-## Notas Técnicas Importantes
+### Notas Importantes
 
-En muchos análisis de expresión génica (GEX), los archivos los archivos I1 / I2 son opcionales en Cell Ranger.
+En muchos análisis de expresión génica (GEX), los archivos I1 / I2 son opcionales en Cell Ranger.
 
 Sin embargo, **no los elimines sin verificar el tipo de experimento**.
 
@@ -164,6 +162,12 @@ Procesamiento con Cell Ranger Cloud
 - Organizar directorios por donador.
 - Documentar el projecto (ID) utilizado.
 
+## Siguiente tema
+
+- [Ir a - descarga de datos procesados en `Cell Ranger on the Cloud`](/docs/main_docs/day1/03b_download_10X_cloud.md)
+- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+
+
 ## Referencias y recursos adicionales
 
 - **Cell Ranger Documentation (Official 10x Genomics Docs)**  
@@ -178,11 +182,5 @@ Procesamiento con Cell Ranger Cloud
   Repositorio oficial de datasets públicos para práctica y benchmarking.  
   https://www.10xgenomics.com/datasets
 
-## Siguiente tema
-
-- [Ir a - descarga de datos procesados en `Cell Ranger on the Cloud`](/docs/main_docs/day1/03b_download_10X_cloud.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
-
----
 
 © El Arkhe · MultiOmics
