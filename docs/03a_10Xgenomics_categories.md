@@ -9,9 +9,9 @@ En esta curso nos enfocaremos en **Chromium 3' Gene Expression**, ya que esté t
 
 En experimentos de scRNA-seq es importante distinguir entre **datos sin procesar (raw data)** y **datos procesados**, ya que cumplen funciones distintas dentro del flujo de análisis.
 
-Los **datos sin procesar** corresponden principalmente a archivos FASTQ y contienen las lecturas de secuenciación originales. Estos datos son el punto de partida para el análisis primario y permiten reprocesar el experimento utilizando diferentes parámetros, referencias o versiones de software.
+* Los **datos sin procesar** corresponden principalmente a archivos FASTQ y contienen las lecturas de secuenciación originales. Estos datos son el punto de partida para el análisis primario y permiten reprocesar el experimento utilizando diferentes parámetros, referencias o versiones de software.
 
-Los **datos procesados** son el resultado del análisis primario (por ejemplo, con Cell Ranger) e incluyen matrices de conteo, archivos BAM y reportes de calidad. Estos datasets están listos para análisis downstream, como control de calidad, clustering e identificación de tipos celulares.
+* Los **datos procesados** son el resultado del análisis primario (por ejemplo, con Cell Ranger) e incluyen matrices de conteo, archivos BAM y reportes de calidad. Estos datasets están listos para análisis downstream, como control de calidad, clustering e identificación de tipos celulares.
 
 >Cell Ranger genera datos procesados a partir de los datos sin procesar, y es fundamental entender esta relación para planificar el análisis de scRNA-seq.
 
