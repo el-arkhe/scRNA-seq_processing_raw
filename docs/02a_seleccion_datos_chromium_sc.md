@@ -26,48 +26,46 @@ Es la opción estándar y más utilizada en estudios de scRNA-seq.
 
 ## Universal 5′ Gene Expression
 
-Esta química captura el extremo 5′ del mRNA, manteniendo la posibilidad de realizar immune profiling.
+Esta química captura el extremo 5′ del mRNA, manteniendo la posibilidad de realizar perfiles inmunológicos mediante la recuperación de secuencias completas de TCR y BCR.
 
 Características principales:
 
 * Transcriptoma completo
 * Captura basada en poly-A
-* Compatible con V(D)J sequencing
-* Permite recuperar secuencias completas de TCR y BCR
+* El kit permite medir la expresión génica general y mapear los receptores inmunitarios TCR/BCR al mismo tiempo en cada célula
 
 Uso recomendado
 * Inmunología
 * Cáncer
-* Estudios de clonalidad
+* Estudios de clonalidad - esto define el clonotipo real y funcional sin errores de combinación aleatoria
 * Integración de expresión génica con identidad del receptor inmune
 
 Es ideal cuando se necesita combinar expresión génica + información inmunológica.
 
 ## Chromium Flex (Fixed RNA Profiling)
 
-Chromium Flex es un enfoque targeted, basado en sondas, diseñado para trabajar con muestras fijadas.
+Chromium Flex es un enfoque orientado, basado en sondas, diseñado para trabajar con muestras fijadas.
+
+Flex toma las células vivas y les aplicas un fijador (formaldehído) de inmediato. El fijador crea enlaces químicos que "congelan" instantáneamente la estructura celular y el ARN en su estado biológico exacto. La célula ya no está viva (no respira ni cambia), pero su perfil transcriptómico quedó perfectamente encapsulado y protegido de la degradación.
 
 Características principales:
 
-* No depende de poly-A
-* Utiliza paneles de genes predefinidos o personalizados
-* Compatible con células o núcleos fijados
+* No depende de poly-A - probe-based en lugar de captura por poli-T
+* Utiliza paneles de genes predefinidos
+* Compatible con células o núcleos
 * Alta reproducibilidad entre lotes
 
 Limitaciones
-* No captura el transcriptoma completo
+* No captura el transcriptoma completo, usa sondas específicas para genes de interés: 18,000 genes humanos y 20,000 genes de ratón
 * El análisis depende del diseño del panel
-* Menor capacidad de descubrimiento
 
 Uso recomendado
-* Muestras clínicas
-* Biobancos
-* Estudios longitudinales
-* Situaciones donde la logística o preservación de la muestra es crítica
+* Muestras clínicas - desactivando agentes patógenos y preservando la integridad del RNA
+* Compatibilidad con tejidos difíciles - permite obtener transcriptomas de alta calidad a partir de muestras en tejidos archivados en FFPE (bloques de parafina) o células extremadamente frágiles que no sobrevivirían a una disociación en vivo
+* Biobancos - preservación a largo plazo
+* Estudios longitudinales - permite fijar y almacenar las muestras de diferentes puntos de tiempo para secuenciarlas juntas en una misma corrida (multiplexación de hasta 16 muestras). Garantiza comparaciones temporales exactas y reduce drásticamente los costos
+* Situaciones donde la logística o preservación de la muestra es crítica - elimina la necesidad de tener un instrumento Chromium o un secuenciador al lado del quirófano o del sitio de colecta de campo
 
-Flex prioriza robustez experimental sobre amplitud transcriptómica. 
-
->Las químicas Universal Expression 3′ y 5′ capturan RNA mediante hibridación a la cola poly-A del mRNA, mientras que Chromium Flex utiliza sondas específicas de genes y no depende de la presencia de poly-A para capturar transcriptos.
 
 <p align="center">
   <img src="/docs/images/cell_ranger_universal_3_5_methods.png" alt="cell ranger universal transcriptome methods">
