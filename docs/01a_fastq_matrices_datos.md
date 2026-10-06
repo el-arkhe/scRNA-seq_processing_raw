@@ -201,16 +201,8 @@ Generalmente, estos datos están disponibles en repositorios públicos como:
 En este taller utilizararemos datos sin procesar y preprocesados accesibles públicamente, lo que permite abordar el flujo completo del  análisis, sin omitir pasos.
 
 
-## Recomendación
-Es posible que para algunos participantes el manejo de archivos FASTQ y la generación de matrices de conteos pueda resultar complejo al inicio. Por ello, recomendamos:
-- Trabaja primero con matrices ya generadas  
-- Luego explora el procesamiento desde FASTQ  
-
-Esto reduce la complejidad inicial y facilita el aprendizaje progresivo.
-
 ## Siguiente tema
-- [Ir a - Plataforma 10x Genomics Chromium](/docs/main_docs/day1/01b_chromium_platforms.md)
-- [Ir a - Índice del taller](/docs/README.md#índice-del-taller)
+- [Ir a - Plataforma 10x Genomics Chromium](/docs/01b_chromium_platforms.md)
 
 ---
 © El Arkhe · MultiOmics
