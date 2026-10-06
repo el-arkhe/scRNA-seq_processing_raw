@@ -77,12 +77,12 @@ El flujo típico de un experimento scRNA-seq incluye:
 
 
 ## Siguiente tema
-- Ir a [Archivos FASTQ y matrices de datos](/docs/main_docs/day1/01a_fastq_matrices_datos.md)
+- Ir a [Archivos FASTQ y matrices de datos](/docs/01a_fastq_matrices_datos.md)
 - Ir al [Índice del taller](/docs/README.md#índice-del-taller)
 
 ## Referencias y recursos adicionales
 
-- Notas. Introducción a single-cell:  
+- Introducción a single-cell:  
   https://cyntsc.github.io/single_cell_RNA-seq/starting/
 
 - Introducción a scRNA-seq (10x Genomics):  
