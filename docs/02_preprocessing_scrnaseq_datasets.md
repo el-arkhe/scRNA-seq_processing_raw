@@ -136,16 +136,17 @@ Pero NO corrige diferencias sistemáticas entre muestras (batch effects) como:
 
 El resultado central del preprocesamiento es obtener la matriz de conteos **Filtered feature-barcode matrix** (H5 o MTX) y el `Web Summary` con métricas de calidad con paso inicial exploratorio.
 
+## Siguiente tema
+- [Ir a - comprendiendo las químicas chromium 3′](/docs/02a_seleccion_datos_chromium_sc.md)
+- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+
+
 ## Referencias y recursos adicionales
 
 - Comenzando con Cell Ranger:\
   https://www.10xgenomics.com/support/software/cell-ranger/latest/getting-started
 - Analysis steps:\
   https://www.10xgenomics.com/support/software/cell-ranger/latest/analysis/running-pipelines/cr-gex-count#analysis-steps
-
-## Siguiente tema
-- [Ir a - comprendiendo las químicas chromium 3′](/docs/02a_seleccion_datos_chromium_sc.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
 
 ---
 
