@@ -41,6 +41,17 @@ Accede a [10x Genomics Datasets](https://www.10xgenomics.com/datasets/5k_Human_D
 - Asegúrense de poder iniciar sesión en sus cuentas.
 - Verifiquen que Claude Desktop esté operativo para las actividades prácticas.
 
+## Índice del curso
+
+1. [Introducción a Single-Cell RNA-seq (scRNA-seq)](./01_introduccion_sc_rnaseq.md)
+2. [Comprendiendo los datos: archivos FASTQ y estructura de datos 10x Genomics](./01a_fastq_matrices_datos.md)
+3. [Plataforma 10x Genomics Chromium](./01b_chromium_platforms.md)
+4. [Procesamiento de datos scRNA-seq con `Cell Ranger`](./02_preprocessing_scrnaseq_datasets.md)
+5. [Selección de datos Chromium single-cell de 10x Genomics](./02a_seleccion_datos_chromium_sc.md)
+6. [Categorías de datos en `10x Genomics Datasets`](./03a_10Xgenomics_categories.md)
+7. [Modos de ejecución de `Cell Ranger`](./02b_run_modes_cellranger.md)
+8. [Gestión de archivos en 10x Genomics Datasets y 10x Genomics Cloud](./03a_upload_files.md)
+9. [Descarga de archivos desde `10X Genomics on the Cloud`](./03b_download_10X_cloud.md)
 
 ## Contacto
 
