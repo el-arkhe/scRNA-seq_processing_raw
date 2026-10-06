@@ -28,16 +28,16 @@ Como alternativa dentro de entornos Galaxy, es común utilizar herramientas open
 - Requiere FASTQ (R1, R2, I1)
 - Produce salidas compatibles con el formato de Cell Ranger
 
+## Siguiente tema
+
+- [Ir a - descarga y carga de archivos FASTQ desde `10x Genomics Datasets` a `10x Genomics on the Cloud`](/docs/03a_upload_files.md)
+- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
+
 ## Referencias y recursos adicionales
 
 - Modos de ejecución Cell Ranger:  
   https://cyntsc.github.io/single_cell_RNA-seq/RunModes/
 
-
-## Siguiente tema
-
-- [Ir a - descarga y carga de archivos FASTQ desde `10x Genomics Datasets` a `10x Genomics on the Cloud`](/docs/main_docs/day1/03a_upload_files.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
 
 ---
 
