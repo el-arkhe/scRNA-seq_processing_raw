@@ -249,7 +249,7 @@ La plataforma Chromium combina:
 ---
 
 ## Siguiente tema
-- [Ir a - Procesamiento de datos scRNA-seq con `Cell Ranger`](/docs/main_docs/day1/02_preprocessing_scrnaseq_datasets.md)
+- [Ir a - Procesamiento de datos scRNA-seq con `Cell Ranger`](/docs/02_preprocessing_scrnaseq_datasets.md)
 - [Ir a - Índice del taller](/docs/README.md#índice-del-taller)
 
 ---
