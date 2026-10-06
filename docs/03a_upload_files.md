@@ -1,10 +1,10 @@
-# Carga y Descarga de archivos single-cell desde `10x Genomics Datasets` a `10x Genomics on the Cloud`
+# Carga y Descarga de archivos single-cell desde 10x Genomics Datasets a 10x Genomics on the Cloud
 
 Tenemos diferentes opciones para descargar y subir archivos de datos de secuenciación de células individuales (scRNA-seq) desde el repositorio público de 10x Genomics a la plataforma en la nube de 10x Genomics, o entre entornos locales y la nube. 
 
 Algunas de las más comúnes son:
 
-## Descargar datos desde `10x Genomics Datasets` a tu computadora local
+### Descargar archivos desde `10x Genomics Datasets` a tu computadora local
 
 Dataset Ejemplo: 
 
@@ -14,12 +14,12 @@ Este dataset está compuesto por **4 donadores control (~20k células en total)*
 
 Dataset base: https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x
 
-## Descarga vía navegador
+### Descargar archivos vía navegador
 
 Descarga los archivos directamente desde el botón de descarga en la página oficial del dataset. Sin mayor complicación.
 
-## Descarga vía línea de comandos (recomendado)
-### Donor 1
+### Descargar archivos vía línea de comandos (recomendado)
+#### Donor 1
 
 ```bash
 # FASTQs
@@ -29,7 +29,7 @@ curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor1_PBMC_3
 curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor1_PBMC_3p_gem-x_Multiplex/5k_Human_Donor1_PBMC_3p_gem-x_Multiplex_config.csv
 ```
 
-### Donor 2
+#### Donor 2
 
 ```bash
 curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor2_PBMC_3p_gem-x_Multiplex/5k_Human_Donor2_PBMC_3p_gem-x_Multiplex_fastqs.tar
@@ -37,13 +37,13 @@ curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor2_PBMC_3
 curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor2_PBMC_3p_gem-x_Multiplex/5k_Human_Donor2_PBMC_3p_gem-x_Multiplex_config.csv
 ```
 
-### Alternativa usando `wget`
+#### Alternativa usando `wget`
 
 ```bash
 wget https://cf.10xgenomics.com/archivo.fastq.tar
 ```
 
-### Donor 3 y Donor 4
+#### Donor 3 y Donor 4
 
 Repetir el procedimiento para las muestras restantes del experimento del donador 3 y 4:
 
@@ -56,9 +56,9 @@ Si descargaste archivos `.tar`:
 tar -xvf archivo_fastqs.tar
 ```
 
-## Carga y Descarga con CLI
+### Carga y descarga de archivos con CLI
 
-### Descarga de 10x 10x Genomics Cloud CLI
+#### Descargar archivos con CLI
 
 La instalación depende del sistema operativo. Por ejemplo este es el comando de descarga de CLI para macOS
 
@@ -71,7 +71,7 @@ Instrucciones para Linux y Windows:
 https://www.10xgenomics.com/support/software/cloud-analysis/latest/tutorials/CA-cloud-cli-documentation-for-mac#downloading-and-unpacking-47097c
 
 
-## Autenticación
+### Autenticación
 
 Al ejecutar la CLI por primera vez, deberás configurar tu token de acceso.
 
@@ -85,7 +85,7 @@ https://cloud.10xgenomics.com/account/security
 ⚠️ No compartas tu access token públicamente.
 
 
-## Subir archivos a 10x Genomics Cloud usando CLI
+#### Subir archivos con CLI
 
 Ejemplo en macOS:
 
@@ -106,7 +106,7 @@ txg-macos-v4.0.0/txg files upload \
 Observa que tienes que apuntar al direcorio donde descargaste CLI (txg) y al directorio donde estan los FASTQs, en mi caso CLI esta en `txg-macos-v4.0.0/txg` y mis FASTQs estan en `scRNAseq/scrnaseq-workshop/data/10XGenomics_data/5k_Human_Donor4_PBMC_3p_gem-x_*` 
 
 
-### Confirmación de subida
+#### Confirmación
 
 El sistema mostrará:
 
@@ -129,14 +129,14 @@ Ctrl + C
 ```
 
 
-### Notas Importantes
+#### Notas Importantes
 
 En muchos análisis de expresión génica (GEX), los archivos I1 / I2 son opcionales en Cell Ranger.
 
 Sin embargo, **no los elimines sin verificar el tipo de experimento**.
 
 
-## Resumen del Flujo
+### Resumen del Flujo
 
 ```
 10x Dataset
@@ -154,7 +154,7 @@ Upload FASTQs
 Procesamiento con Cell Ranger Cloud
 ```
 
-## Buenas Prácticas
+### Buenas Prácticas
 
 - Verificar espacio en disco antes de descargar.
 - Confirmar integridad con md5sum si está disponible.
@@ -162,7 +162,7 @@ Procesamiento con Cell Ranger Cloud
 - Organizar directorios por donador.
 - Documentar el projecto (ID) utilizado.
 
-## Siguiente tema
+### Siguiente tema
 
 - [Ir a - descarga de datos procesados en `Cell Ranger on the Cloud`](/docs/main_docs/day1/03b_download_10X_cloud.md)
 - [Ir a - índice del taller](/docs/README.md#índice-del-taller)
