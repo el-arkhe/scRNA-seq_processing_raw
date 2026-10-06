@@ -1,7 +1,7 @@
 # Procesamiento de datos scRNA-seq con `Cell Ranger`
 
 
-Para experimentos de **sscRNA-seq** generados con la plataforma **10x Genomics Chromium**, el flujo de trabajo estándar de preprocesamiento se realiza utilizando **Cell Ranger**.
+Para experimentos de **scRNA-seq** generados con la plataforma **10x Genomics Chromium**, el flujo de trabajo estándar de preprocesamiento se realiza utilizando **Cell Ranger**.
 
 **Cell Ranger** es un conjunto de herramientas bioinformáticas diseñado para procesar datos de secuenciación crudos y generar matrices de expresión génica listas para análisis downstream (por ejemplo, en Seurat o Scanpy).
 
@@ -144,7 +144,7 @@ El resultado central del preprocesamiento es obtener la matriz de conteos **Filt
   https://www.10xgenomics.com/support/software/cell-ranger/latest/analysis/running-pipelines/cr-gex-count#analysis-steps
 
 ## Siguiente tema
-- [Ir a - comprendiendo las químicas chromium 3′](/docs/main_docs/day1/02a_seleccion_datos_chromium_sc.md)
+- [Ir a - comprendiendo las químicas chromium 3′](/docs/02a_seleccion_datos_chromium_sc.md)
 - [Ir a - índice del taller](/docs/README.md#índice-del-taller)
 
 ---
