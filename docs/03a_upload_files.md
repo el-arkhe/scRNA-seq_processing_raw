@@ -56,7 +56,7 @@ Si descargaste archivos `.tar`:
 tar -xvf archivo_fastqs.tar
 ```
 
-### Carga y descarga de archivos con CLI
+## Carga y descarga de archivos con CLI
 
 #### Descargar archivos con CLI
 
