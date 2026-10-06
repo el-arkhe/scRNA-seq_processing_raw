@@ -80,7 +80,7 @@ Uso recomendado
 | Transcriptoma completo | Sí | Sí | No |
 | TCR/BCR | No | Sí | No |
 | Muestras fijadas | No | No | Sí |
-| Enfoque | Descubrimiento | Inmunología | Targeted / clínico |
+| Enfoque | Descubrimiento | Inmunología | Orientado / clínico |
 
 
 ### Guía rápida de decisión
@@ -93,6 +93,10 @@ Como guía básica de seleccion inicial puedes preguntarte:
 * Quiero transcriptoma + clonotipos inmunes → `Universal 5′`
 * Trabajo con muestras fijadas o clínicas → `Chromium Flex`
 
+
+## Siguiente tema
+- [Ir a - Comprendiendo las categorías de datos en 10x Genomics Datasets](/docs/03a_10Xgenomics_categories.md)
+- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
 
 ## Referencias y recursos adicionales
 
@@ -110,12 +114,6 @@ Como guía básica de seleccion inicial puedes preguntarte:
 - Chromium Single Cell Fixed RNA Profiling (Flex)
     Descripción oficial del enfoque targeted basado en sondas y muestras fijadas.
     https://www.10xgenomics.com/products/flex-gene-expression
-
----
-
-## Siguiente tema
-- [Ir a - Comprendiendo las categorías de datos en 10x Genomics Datasets](/docs/main_docs/day1/03a_10Xgenomics_categories.md)
-- [Ir a - índice del taller](/docs/README.md#índice-del-taller)
 
 ---
 
