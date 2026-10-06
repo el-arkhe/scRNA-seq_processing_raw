@@ -164,7 +164,7 @@ Procesamiento con Cell Ranger Cloud
 
 ### Siguiente tema
 
-- [Ir a - descarga de datos procesados en `Cell Ranger on the Cloud`](/docs/main_docs/day1/03b_download_10X_cloud.md)
+- [Ir a - descarga de datos procesados en `Cell Ranger on the Cloud`](/docs/03b_download_10X_cloud.md)
 - [Ir a - índice del taller](/docs/README.md#índice-del-taller)
 
 
