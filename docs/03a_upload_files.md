@@ -63,26 +63,41 @@ unzip txg-macos-v4.3.0.zip
 cd txg-macos-v4.3.0
 ```
 
+Una vez **descargado y descomprimido**, puedes ejecutar la CLI desde el directorio que contiene el ejecutable `txg`.
+
+Recuerda `txg` es el ejecutable de 10x Genomics Cloud CLI. 
+
+**Tip:** Sí lo descargaste y no lo encuentras?
+
+En MAC/Linux, puedes buscarlo en la terminal con:
+
+```bash
+find ~ -type f -name "txg" 2>/dev/null
+````
+
+En Windows, puedes buscarlo en el explorador de archivos con el nombre `txg.exe`
+ 
+
 ### Gestión de archivos con Cloud CLI
 
-A continuación se presentan algunos ejemplos de gestion de archivos con la CLI de 10x Genomics Cloud. Los ejemplos siguientes corresponden a macOS y Linux. En Windows, el ejecutable se llama `txg.exe`.
+A continuación se presentan ejemplos de gestion de archivos con la CLI de 10x Genomics Cloud. 
+
+Los ejemplos siguientes corresponden a macOS y Linux. En Windows, el ejecutable se llama `txg.exe`, lee cuidadosamente los ejemplos.
 
 ### Verificar la instalación y consultar la ayuda
 
-Antes de comenzar a usar la CLI, es importante verificar que esté correctamente instalada y consultar los comandos disponibles:
+Primero, verifica que versión instalaste y que la ayuda de comandos este disponible:
+
+En **MAC/Linux**, desde el directorio que contiene el ejecutable `txg`, ejecuta:
 
 ```bash
 ./txg --version
 ./txg --help
 ```
 
-`txg` es el ejecutable de 10x Genomics Cloud CLI. 
+**Tip:** También puedes añadirlo al `PATH` para ejecutarlo desde cualquier ubicación.
 
-Para ejecutarlo en MAC/Linux utiliza `./txg`, la terminal debe encontrarse en el directorio que contiene el archivo. 
-
-También puedes añadirlo al `PATH` para ejecutarlo desde cualquier ubicación.
-
-En Windows, utilizando PowerShell desde la carpeta que contiene el ejecutable, los comandos equivalentes son:
+En **Windows**, utilizando PowerShell desde la carpeta que contiene el ejecutable, los comandos equivalentes son:
 
 ```powershell
 .\txg.exe --version
@@ -91,7 +106,7 @@ En Windows, utilizando PowerShell desde la carpeta que contiene el ejecutable, l
 
 ### Configurar la autenticación
 
-La primera vez que utilices la CLI, deberás configurar el token de acceso de tu cuenta de 10x Genomics Cloud.
+La primera vez que utilices la **CLI**, deberás configurar el token de acceso de tu cuenta de 10x Genomics Cloud.
 
 El **token de acceso** autentica al usuario: indica quién realiza la operación y permite que `txg` se conecte a tu cuenta. Normalmente, se configura una sola vez.
 
@@ -99,19 +114,25 @@ El **token de acceso** autentica al usuario: indica quién realiza la operación
 ./txg auth setup
 ```
 
-El comando solicitará ingresar el token disponible en la sección de seguridad de la cuenta de 10x Genomics Cloud.
+El comando solicitará ingresar el token disponible en la sección de **seguridad** de la **cuenta de 10x Genomics Cloud**.
 
 Para verificar que la autenticación funciona correctamente, ejecuta:
 
+En MAC/Linux:
 ```bash
 ./txg auth verify
+```
+
+En Windows (PowerShell):
+```powershell
+.\txg.exe auth verify
 ```
 
 > El token es una credencial personal. No lo compartas ni lo incluyas en capturas de pantalla, repositorios o materiales del curso.
 
 ### Identificar el `Project ID`
 
-El **Project ID** determina en qué proyecto de 10x Genomics Cloud se realizará la operación. No es una credencial y puede ser diferente para cada proyecto.
+El **Project ID** determina en qué proyecto de 10x Genomics Cloud se realizará la operación. No es una credencial y es diferente para cada proyecto.
 
 Puedes obtenerlo desde la interfaz web del proyecto o mediante la CLI:
 
@@ -131,10 +152,15 @@ Verifica el valor guardado:
 echo "$PROJECT_ID"
 ```
 
-La variable estará disponible mientras permanezca abierta esa sesión de la terminal. Si deseas conservarla para sesiones futuras, puedes añadir el comando `export` a `~/.zshrc` o `~/.bashrc`, según el shell que utilices.
+**Tip:** La variable estará disponible mientras permanezca abierta esa sesión de la terminal. Si deseas conservarla para sesiones futuras, puedes añadir el comando `export` a `~/.zshrc` o `~/.bashrc`, según el shell que utilices.
 
-**Importante**: Cuando creas un proyecto nuevo, aparecerá automáticamente en esa lista porque está asociado con tu cuenta. Sin embargo, para ejecutar una operación debes proporcionar explícitamente su Project ID:
+**Importante**: Cuando creas un proyecto nuevo, aparecerá automáticamente en la lista de proyectos de tu cuenta porque está asociado. 
 
+Sin embargo, para ejecutar una operación debes proporcionar explícitamente su Project ID:
+
+Ejemplo de comando para subir archivos FASTQ a un proyecto específico:
+
+En MAC/Linux:
 ```bash
 ./txg files upload --project-id PROJECT_ID ruta/a/los/FASTQ/
 ```
@@ -143,13 +169,22 @@ La variable estará disponible mientras permanezca abierta esa sesión de la ter
 
 Desde el directorio que contiene `txg`, ejecuta:
 
+En MAC/Linux:
 ```bash
 ./txg files upload \
   --project-id "$PROJECT_ID" \
   ~/scRNAseq/scrnaseq-workshop/data/10XGenomics_data/5k_Human_Donor4_PBMC_3p_gem-x_*
 ```
 
-Este comando contiene tres componentes:
+En Windows (PowerShell):
+```powershell
+.\txg.exe files upload `
+  --project-id "$PROJECT_ID" `
+  C:\ruta\a\los\FASTQ\5k_Human_Donor4_PBMC_3p_gem-x_*
+```
+
+
+El comando contiene tres componentes:
 
 - `./txg`: ubicación del ejecutable de la CLI.
 - `--project-id "$PROJECT_ID"`: proyecto de 10x Cloud que recibirá los archivos.
@@ -161,7 +196,7 @@ Antes de ejecutar el comando, confirma que la variable corresponde al proyecto c
 echo "$PROJECT_ID"
 ```
 
-También puedes verificar qué archivos seleccionará el patrón:
+También conviene confirmar la ruta a los archivos que se van a cargar:
 
 ```bash
 ls ~/scRNAseq/scrnaseq-workshop/data/10XGenomics_data/5k_Human_Donor4_PBMC_3p_gem-x_*
