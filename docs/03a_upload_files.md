@@ -143,7 +143,7 @@ Puedes obtenerlo desde la interfaz web del proyecto o mediante la CLI:
 Para evitar escribirlo repetidamente, puedes guardarlo temporalmente en una variable de entorno:
 
 ```bash
-export PROJECT_ID="7eYppMyRTh90r4Ai44csJ2g"
+export PROJECT_ID="####################"
 ```
 
 Verifica el valor guardado:
@@ -173,14 +173,14 @@ En MAC/Linux:
 ```bash
 ./txg files upload \
   --project-id "$PROJECT_ID" \
-  ~/scRNAseq/scrnaseq-workshop/data/10XGenomics_data/5k_Human_Donor4_PBMC_3p_gem-x_*
+  ~/ruta/a/los/FASTQ//10XGenomics_data/5k_Human_Donor1_PBMC_3p_gem-x_*
 ```
 
 En Windows (PowerShell):
 ```powershell
 .\txg.exe files upload `
   --project-id "$PROJECT_ID" `
-  C:\ruta\a\los\FASTQ\5k_Human_Donor4_PBMC_3p_gem-x_*
+  C:\ruta\a\los\FASTQ\5k_Human_Donor1_PBMC_3p_gem-x_*
 ```
 
 
@@ -188,7 +188,7 @@ El comando contiene tres componentes:
 
 - `./txg`: ubicación del ejecutable de la CLI.
 - `--project-id "$PROJECT_ID"`: proyecto de 10x Cloud que recibirá los archivos.
-- `~/scRNAseq/.../5k_Human_Donor4_PBMC_3p_gem-x_*`: ruta y patrón de los FASTQ que se cargarán.
+- `~/ruta/a/los/FASTQ/5k_Human_Donor1_PBMC_3p_gem-x_*`: ruta y patrón de los FASTQ que se cargarán.
 
 Antes de ejecutar el comando, confirma que la variable corresponde al proyecto correcto:
 
@@ -199,7 +199,7 @@ echo "$PROJECT_ID"
 También conviene confirmar la ruta a los archivos que se van a cargar:
 
 ```bash
-ls ~/scRNAseq/scrnaseq-workshop/data/10XGenomics_data/5k_Human_Donor4_PBMC_3p_gem-x_*
+ls ~/ruta/a/los/FASTQ/5k_Human_Donor1_PBMC_3p_gem-x_*
 ```
 
 ### Confirmar la carga
