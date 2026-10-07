@@ -1,4 +1,4 @@
-# Gestion de archivos en 10x Genomics Datasets y 10x Genomics Cloud 
+# Gestion de archivos en 10x Genomics Datasets a 10x Genomics Cloud 
 
 Tenemos diferentes opciones para gestionar archivos desde la plataforma  de *10x Genomics Datasets* a la plataforma en la nube de *10x Genomics Cloud*, o entre entornos locales y la nube. 
 
