@@ -128,7 +128,7 @@ En Windows (PowerShell):
 .\txg.exe auth verify
 ```
 
-> El token es una credencial personal. No lo compartas ni lo incluyas en capturas de pantalla, repositorios o materiales del curso.
+> El token es una credencial personal. No lo compartas ni lo incluyas en capturas de pantalla.
 
 ### Identificar el `Project ID`
 
