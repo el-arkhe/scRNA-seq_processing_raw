@@ -53,6 +53,10 @@ Accede a [10x Genomics Datasets](https://www.10xgenomics.com/datasets/5k_Human_D
 8. [Gestión de archivos en 10x Genomics Datasets y 10x Genomics Cloud](./03a_upload_files.md)
 9. [Descarga de archivos desde `10X Genomics on the Cloud`](./03b_download_10X_cloud.md)
 
+## Material suplementario
+
+[Material suplementario](./material_suplementario.md)
+
 ## Contacto
 
 Si tienen dudas sobre la configuración o los prerrequisitos, contacten con la organización del curso antes de la primera sesión.
