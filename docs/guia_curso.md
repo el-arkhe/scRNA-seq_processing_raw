@@ -52,6 +52,11 @@ Accede a [10x Genomics Datasets](https://www.10xgenomics.com/datasets/5k_Human_D
 7. [Modos de ejecución de `Cell Ranger`](./02b_run_modes_cellranger.md)
 8. [Gestión de archivos en 10x Genomics Datasets y 10x Genomics Cloud](./03a_upload_files.md)
 9. [Descarga de archivos desde `10X Genomics on the Cloud`](./03b_download_10X_cloud.md)
+10. [Exploración de resultados con el reporte de `Cell Ranger`](./04_exploracion_resultados_cellranger.md)
+
+11. [Introducción: Procesamiento de datos scRNA-seq mediante prompts e IA](./05_interoperabilidad_Cloud_CLI_AI.md)
+12. [Interoperabilidad de 10x Genomics Cloud Analysis con Claude](./06_interoperabilidad_Cloud_CLI_AI.md)
+
 
 ## Material suplementario
 
