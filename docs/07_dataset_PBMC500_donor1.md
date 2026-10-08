@@ -118,7 +118,7 @@ Referencias y atribución
 
 ## Siguiente tema
 
-- [Ir a - Práctica con 10x Genomics Cloud y Cell Ranger](/docs/08_practica_cloud_cellranger.md)
+- [Ir a - Configuración de 10x Genomics Cloud con Claude Desktop](/docs/08_claude_cloud_setup.md)
 - [Ir a - índice del taller](./guia_curso.md)
 
 ---
