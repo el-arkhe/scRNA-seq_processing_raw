@@ -57,6 +57,8 @@ Accede a [10x Genomics Datasets](https://www.10xgenomics.com/datasets/5k_Human_D
 11. [Introducción: Procesamiento de datos scRNA-seq mediante prompts e IA](./05_interoperabilidad_Cloud_CLI_AI.md)
 12. [Interoperabilidad de 10x Genomics Cloud Analysis con Claude](./06_interoperabilidad_Cloud_CLI_AI.md)
 
+13. [Dataset de práctica: PBMC500 Donor 1](./07_dataset_PBMC500_donor1.md)
+
 
 ## Material suplementario
 

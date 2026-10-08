@@ -81,9 +81,9 @@ Los archivos conservan aproximadamente **35,011 pares de lecturas por barcode se
 
 ## 6. Uso en 10x Genomics Cloud
 
-1. Inicia sesión en [10x Genomics Cloud](https://cloud.10xgenomics.com/).
-2. Selecciona o crea un proyecto.
-3. Sube los ocho archivos FASTQ desde la interfaz web o mediante **10x Cloud CLI (`txg`)**.
+1. Inicia sesión en [10x Genomics Cloud](https://cloud.10xgenomics.com/)
+2. Selecciona o crea un proyecto. Por ejemplo, `PBMC500_Practice`
+3. Sube los ocho archivos FASTQ desde la interfaz web o mediante **10x Cloud CLI (`txg`)**
 4. Verifica que los archivos R1/R2 y las cuatro lanes se agrupen correctamente.
 5. Configura una ejecución compatible de **Cell Ranger count** para datos GEM-X Single Cell 3′ Gene Expression, seleccionando la referencia apropiada.
 6. Revisa el `web_summary.html`, las métricas de QC y la matriz de expresión filtrada.
