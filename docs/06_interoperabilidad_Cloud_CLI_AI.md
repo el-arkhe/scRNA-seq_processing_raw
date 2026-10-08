@@ -3,7 +3,7 @@
 
 Aquí encontrarás una breve explicación sobre la arquitectura, flujo de datos y capacidades del sistema integrado de análisis genómico de 10x Genomics Cloud + Agente Claude:
 
-[Presentación: 10x Genomics Cloud + Agente Claude](https://speakerdeck.com/cyntsc/10x-genomics-cloud-plus-agente-claude)
+[Presentación: 10x Genomics Cloud + Agente Claude](/docs/images/portada_webinar1.png)](https://speakerdeck.com/cyntsc/10x-genomics-cloud-plus-agente-claude)
 
 
 Aquí se describen los productos soportados por 10x Genomics Cloud Analysis y su compatibilidad con agentes de IA:
