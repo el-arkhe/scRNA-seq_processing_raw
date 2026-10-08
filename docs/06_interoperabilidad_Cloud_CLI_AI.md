@@ -17,6 +17,10 @@ Aquí se describen los productos soportados por 10x Genomics Cloud Analysis y su
 -->
 [Webpage Oficial 10X: Productos soportados por 10x Genomics Cloud Analysis](https://www.10xgenomics.com/support/software/cloud-analysis/latest/miscellaneous/CA-supported-products) 
 
+## Siguiente tema
+
+- [Ir a - Acceso a los datos prácticos con PBMC500](/docs/07_dataset_PBMC500_donor1.md)
+- [Ir a - índice del taller](./guia_curso.md)
 
 ---
 
