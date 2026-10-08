@@ -70,4 +70,16 @@ Antes de comenzar, debemos contar con:
 - Una cuenta activa de 10x Genomics Cloud.
 - Un token de acceso configurado.
 - Claude Desktop instalado.
--
+
+## Siguiente tema
+
+- [Ir a - Interoperabilidad entre 10x Cloud and Claude agent](/docs/06_interoperabilidad_Cloud_CLI_AI.md)
+- [Ir a - índice del taller](./guia_curso.md)
+
+## Referencias
+
+[Prompt-Based Interface for the 10x Genomics Cloud](https://www.10xgenomics.com/support/software/cloud-analysis/latest/tutorials/cloud-mcp-server)
+
+---
+
+© El Arkhe · MultiOmics
