@@ -137,6 +137,8 @@ Una vez finalizado el procesamiento en 10x Cloud:
 
 **Resultado esperado:** reconocer los archivos necesarios para evaluar la calidad del procesamiento y continuar con el análisis de datos scRNA-seq.
 
+[Guía de evaluación de calidad mediante el resumen web de Cell Ranger](https://www.10xgenomics.com/analysis-guides/quality-assessment-using-the-cell-ranger-web-summary)
+
 ## Siguiente tema
 
 - [Ir a - Introducción a Interoperabilidad entre 10x Cloud and Claude agent](/docs/05_introduccion_interoperabilidad_agentes_IA_CLoud10x.md)
