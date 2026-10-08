@@ -6,16 +6,16 @@
 
 ### Guías de referencia
 
-[Guía de evaluación de calidad mediante el resumen web de Cell Ranger](https://www.10xgenomics.com/analysis-guides/quality-assessment-using-the-cell-ranger-web-summary)
+[Oficial 10x: Guía de evaluación de calidad mediante el resumen web de Cell Ranger](https://www.10xgenomics.com/analysis-guides/quality-assessment-using-the-cell-ranger-web-summary)
 
-[Guía `Prompt-Based Interface for the 10x Genomics Cloud`](https://www.10xgenomics.com/support/software/cloud-analysis/latest/tutorials/cloud-mcp-server)
+[Oficial 10x: Guía `Prompt-Based Interface for the 10x Genomics Cloud`](https://www.10xgenomics.com/support/software/cloud-analysis/latest/tutorials/cloud-mcp-server)
 
 
 ### YouTube
 
-[How it works | 10X Chromium Single Cell Gene Expression Solution](https://www.youtube.com/watch?v=4NAS1qTJmYA)
+[Oficial 10x: How it works | 10X Chromium Single Cell Gene Expression Solution](https://www.youtube.com/watch?v=4NAS1qTJmYA)
 
-[Single Cell 3′ Solutions | Webinar](https://www.youtube.com/watch?v=59lauEIO1Qc)
+[Oficial 10x: Single Cell 3′ Solutions | Webinar](https://www.youtube.com/watch?v=59lauEIO1Qc)
 
 ### Miscelánea
 
