@@ -8,6 +8,8 @@
 
 [Guía de evaluación de calidad mediante el resumen web de Cell Ranger](https://www.10xgenomics.com/analysis-guides/quality-assessment-using-the-cell-ranger-web-summary)
 
+[Guía `Prompt-Based Interface for the 10x Genomics Cloud`](https://www.10xgenomics.com/support/software/cloud-analysis/latest/tutorials/cloud-mcp-server)
+
 
 ### YouTube
 
