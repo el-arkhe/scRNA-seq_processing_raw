@@ -60,3 +60,7 @@ Accede a [10x Genomics Datasets](https://www.10xgenomics.com/datasets/5k_Human_D
 ## Contacto
 
 Si tienen dudas sobre la configuración o los prerrequisitos, contacten con la organización del curso antes de la primera sesión.
+
+---
+
+© El Arkhe · MultiOmics
