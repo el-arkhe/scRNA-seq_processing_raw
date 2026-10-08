@@ -65,9 +65,10 @@ curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor1_PBMC_3
 curl -O https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor1_PBMC_3p_gem-x_5k_Human_Donor1_PBMC_3p_gem-x_count_sample_filtered_feature_bc_matrix.h5
 ```
 
-## Siguiente paso
+## Siguiente tema
 
-Inspecciona los reportes de calidad y si satisfacen tus expectativas estas listo para iniciar  **downstream analysis**.
+- [Ir a - exploración de resultados](/docs/04_exploracion_resultados_cellranger.md)
+- [Ir a - índice del taller](./guia_curso.md)
 
 
 ## Referencias y recursos adicionales
@@ -83,11 +84,6 @@ Inspecciona los reportes de calidad y si satisfacen tus expectativas estas listo
 - **10x Genomics Datasets (Public Data Portal)**  
   Repositorio oficial de datasets públicos para práctica y benchmarking.  
   https://www.10xgenomics.com/datasets
-
-## Siguiente tema
-
-- [Ir a - submuestreo (subsampling) con datos scRNA-seq](/docs/main_docs/day1/04_subsampling.md)
-- [Ir a - índice del taller](./guia_curso.md)
 
 ---
 
