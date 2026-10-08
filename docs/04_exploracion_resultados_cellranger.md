@@ -15,7 +15,7 @@ Durante el procesamiento, Cell Ranger realiza operaciones como:
 6. Análisis exploratorios, como PCA, clustering y UMAP.
 
 <p align="center">
-  <img src="./docs/images/cellranger_algorithm.png" alt="Algoritmo de Cell Ranger" width="600"/>
+  <img src="/docs/images/cellranger_algorithm.png" alt="Algoritmo de Cell Ranger" width="600"/>
 </p>
 
 Los archivos finales se almacenan en el directorio `outs/`.
