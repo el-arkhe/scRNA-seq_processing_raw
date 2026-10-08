@@ -61,24 +61,22 @@ Cuando desconocemos algún parámetro, podemos solicitar que Claude explique las
 
 > La IA facilita la interacción con herramientas bioinformáticas, pero **la responsabilidad de verificar los parámetros, la calidad de los datos y la interpretación científica permanece en el usuario**.
 
-## 5. Primera práctica: interactuar con 10x Cloud mediante prompts
+## 5. Requisitos para interactuar con 10x Cloud mediante prompts
 
-**Objetivo:** familiarizarnos con las herramientas disponibles en Claude Desktop y aprender a consultar información de nuestra cuenta de 10x Cloud.
-
-Antes de comenzar, debemos contar con:
+Asegurate de tener las herramientas necesarias para utilizar esta funcionalidad entre Claude Desktop y 10x Cloud.
 
 - Una cuenta activa de 10x Genomics Cloud.
 - Un token de acceso configurado.
 - Claude Desktop instalado.
 
+Las instrucciones detalladas para instalar y configurar Claude Desktop dependen del sistema operativo y se encuentran en la [documentación oficial de Anthropic](https://docs.anthropic.com/claude/docs/desktop)
+
+
 ## Siguiente tema
 
-- [Ir a - Interoperabilidad entre 10x Cloud and Claude agent](/docs/06_interoperabilidad_Cloud_CLI_AI.md)
+- [Ir a - Cómo funciona la interoperabilidad entre el Cloud y el agente de IA](/docs/06_interoperabilidad_Cloud_CLI_AI.md)
 - [Ir a - índice del taller](./guia_curso.md)
 
-## Referencias
-
-[Prompt-Based Interface for the 10x Genomics Cloud](https://www.10xgenomics.com/support/software/cloud-analysis/latest/tutorials/cloud-mcp-server)
 
 ---
 

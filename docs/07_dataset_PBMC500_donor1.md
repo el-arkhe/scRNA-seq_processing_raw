@@ -6,7 +6,7 @@
 
 Se seleccionaron aleatoriamente **500 barcodes celulares** de la matriz filtrada previamente generada por Cell Ranger (semilla aleatoria `42`). Posteriormente, se conservaron de los FASTQ originales únicamente los pares de lecturas R1/R2 cuyo barcode de 16 nucleótidos al inicio de R1 coincidía **exactamente** con uno de los barcodes seleccionados.
 
-**Importante:** este material **no representa una biblioteca experimental independiente de 500 células**. La selección de barcodes no garantiza que Cell Ranger identifique exactamente 500 células al reprocesar los FASTQ.
+**Importante:** este material **no representa una biblioteca experimental independiente de 500 células**. 
 
 ## 2. Acceso y descarga
 
@@ -109,12 +109,17 @@ El subconjunto se generó **después de conocer qué barcodes habían sido ident
 
 **Uso recomendado:** demostración del flujo de procesamiento, transferencia a la nube, ejecución de Cell Ranger y exploración de resultados. No es un dataset de referencia para benchmarking científico.
 
-## 8. Referencias y atribución
+Referencias y atribución
 
 1. [10x Genomics — 5k Human Donor 1 PBMC, GEM-X 3′ (dataset original)](https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x).
 2. [10x Genomics — Cell Ranger: archivos de salida](https://www.10xgenomics.com/support/software/cell-ranger/10.0/analysis/outputs/cr-outputs-overview).
 
 **Atribución:** los datos originales pertenecen a la publicación de referencia de 10x Genomics. Este subconjunto se preparó con fines educativos para El Arkhe. Antes de redistribuir los FASTQ, verificar los términos de uso y redistribución aplicables al dataset original.
+
+## Siguiente tema
+
+- [Ir a - Práctica con 10x Genomics Cloud y Cell Ranger](/docs/08_practica_cloud_cellranger.md)
+- [Ir a - índice del taller](./guia_curso.md)
 
 ---
 
