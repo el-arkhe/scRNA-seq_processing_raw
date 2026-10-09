@@ -10,6 +10,8 @@ Se seleccionaron aleatoriamente **500 barcodes celulares** de la matriz filtrada
 
 ## 2. Acceso y descarga
 
+Ya hemos subido los archivos FASTQ comprimidos a Google Drive para su descarga. Descargarlos directamente desde el enlace proporcionado y lee las instrucciones a continuación antes de subirlos a 10x Cloud.
+
 **Google Drive:** [Descargar PBMC500_Donor1](https://drive.google.com/drive/folders/1nnfO-J9_yrRJQKF7-p3mhLPtehKRTK_h?usp=sharing
 )
 
@@ -109,12 +111,30 @@ El subconjunto se generó **después de conocer qué barcodes habían sido ident
 
 **Uso recomendado:** demostración del flujo de procesamiento, transferencia a la nube, ejecución de Cell Ranger y exploración de resultados. No es un dataset de referencia para benchmarking científico.
 
-Referencias y atribución
+## Referencias y atribución
 
 1. [10x Genomics — 5k Human Donor 1 PBMC, GEM-X 3′ (dataset original)](https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x).
 2. [10x Genomics — Cell Ranger: archivos de salida](https://www.10xgenomics.com/support/software/cell-ranger/10.0/analysis/outputs/cr-outputs-overview).
 
 **Atribución:** los datos originales pertenecen a la publicación de referencia de 10x Genomics. Este subconjunto se preparó con fines educativos para El Arkhe. Antes de redistribuir los FASTQ, verificar los términos de uso y redistribución aplicables al dataset original.
+
+## Un regalo para los participantes del taller
+
+Preparé un script Bash para macOS y Linux que automatiza la creación de datasets pequeños de scRNA-seq a partir de FASTQ originales y los barcodes identificados por Cell Ranger. Esto permite generar subconjuntos de práctica similares a PBMC500_Donor1 a partir de otros datasets públicos de 10x Genomics. Así creé **PBMC1000_Donor1**, **PBMC5000_Donor2** y otros para los cursos.
+
+*Script*: [subsample_fastqs.sh](./scripts/create_small_scrnaseq_dataset.sh)
+
+**Funcionalidades**
+- Selecciona aleatoriamente 100, 500, 1,000 o cualquier número válido de barcodes.
+- Utiliza una semilla fija (42) para reproducibilidad.
+- Procesa automáticamente las cuatro lanes, o las que encuentre.
+- Conserva la sincronización entre R1 y R2.
+- Genera FASTQ comprimidos compatibles con Cell Ranger.
+- Verifica la integridad gzip y genera filter_summary.tsv.
+- No modifica los archivos originales.
+
+
+
 
 ## Siguiente tema
 
