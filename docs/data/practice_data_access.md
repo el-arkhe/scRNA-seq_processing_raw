@@ -53,7 +53,7 @@ Este *bash script* (macOS y Linux) automatiza la creación de datasets pequeños
 
 Esto permite generar subconjuntos de práctica similares a PBMC500_Donor1 a partir de otros datasets públicos de 10x Genomics. Así creé **PBMC1000_Donor1**, **PBMC5000_Donor2** y otros para los cursos.
 
-*Script*: [subsample_fastqs.sh](./scripts/create_small_scrnaseq_dataset.sh)
+*Script*: [subsample_fastqs.sh](../scripts/create_small_scrnaseq_dataset.sh)
 
 **Funcionalidades**
 - Selecciona aleatoriamente 100, 500, 1,000 o cualquier número válido de barcodes.
