@@ -25,15 +25,7 @@ El curso busca introducir el flujo de trabajo de análisis de datos scRNA-seq, c
 
 ## Datasets del curso
 
-Accede a [10x Genomics Datasets](https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x)
-
-| Dataset y enlace directo | Células detectadas |
-|---|---:|
-| [5k Human PBMCs — Donor 1](https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x) | 5,709 |
-| 5k Human PBMCs — Donor 2 | 5,987 |
-| 5k Human PBMCs — Donor 3 | 4,773 |
-| 5k Human PBMCs — Donor 4 | 5,721 |
-| Total | 22,190 |
+Los datasets de práctica para el curso se encuentran en [docs/data/practice_data_access.md](./data/practice_data_access.md)
 
 ## Recomendaciones
 
